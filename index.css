@@ -11,6 +11,22 @@ a{
     min-height: 100vh;
 }
 
+.container__title {
+
+}
+
+.container__descricao {
+
+}
+
+.container__opcoes {
+    gap: 10px;
+}
+
+.opcoes__entrar {
+    height: 200px;
+}
+
 
 
 .entrar__opcao {
