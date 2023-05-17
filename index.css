@@ -1,5 +1,6 @@
 body.index{
-    --bs-bg-opacity: .2;
+    /* --bs-bg-opacity: .2; */
+    background-color: #faf2f0;
 }
 a{
     text-decoration: none;
@@ -25,6 +26,7 @@ a{
 
 .opcoes__entrar {
     height: 200px;
+    border: 1px solid #89a7b1;
 }
 
 
