@@ -1,6 +1,6 @@
 body.index{
     /* --bs-bg-opacity: .2; */
-    background-color: #faf2f0;
+    
 }
 a{
     text-decoration: none;
@@ -27,6 +27,13 @@ a{
 .opcoes__entrar {
     height: 200px;
     border: 1px solid #89a7b1;
+    border-radius: 20px;
+    /* background-color: #dfcb89; */
+    /* color: blanchedalmond; */
+}
+
+.entrar__titulo {
+    font-weight: 700;
 }
 
 
