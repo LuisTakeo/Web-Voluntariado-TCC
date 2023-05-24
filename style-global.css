@@ -5,13 +5,17 @@
 }
 
 body{
-    background: rgb(246,142,186);
-background: radial-gradient(circle, rgba(246,142,186,0.6784838935574229) 0%, rgba(192,249,234,0.8241421568627451) 100%);
+    background: url("./src/img/fundo.jpg");
+    background-size: cover;
     min-height: 100vh;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p, h1, h2, h3, h4, h5, h6, a {
+    color: rgb(77, 67, 67);
 }
 
 .container {
     --bs-bg-opacity: .5;
-    padding: 10px;
     min-height: 100vh;
 }
