@@ -1,0 +1,26 @@
+Páginas
+1 Index
+idoso:
+2.1 - Login idoso (requisição back)
+2.2 - Cadastrar idoso (requisição back)
+2.3 - Esqueci minha senha idoso (requisição back)
+2.4 - Principal idoso (logado)
+voluntario:
+3.1 - Login voluntario (requisição back)
+3.2 - Cadastrar voluntario (requisição back)
+3.3 - Esqueci minha senha voluntario (requisição back)
+3.4 - Principal voluntario (logado)
+
+#DONE:
+ - Criado páginas iniciais (index, login, cadastro, esqueci minha senha) e sua navegação
+
+
+#TODO1:
+ - Estilizar páginas index, login, esqueci minha senha e cadastro (idoso/voluntário)
+ - Criar javascript para contato com o backend
+
+#TODO2:
+ - Pagina serviços (requisição back)
+ - Pagina serviço ativo 
+ - Pagina avaliação
+-- Componetizar (e enxugar)
