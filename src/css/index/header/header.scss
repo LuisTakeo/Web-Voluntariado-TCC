@@ -1,0 +1,47 @@
+.header {
+    // background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 40px;
+}
+
+.header__title {
+    padding: 0;
+    display: inline;
+    justify-content: space-around;
+    font-size: 1.75rem;
+    h2>a>img {
+        width: 100%;
+        max-width: 40px;
+        /* position: relative;
+        top: 3px; */
+    }
+    h2>a>span {
+        /* position: absolute; */
+        color: rgb(0, 0, 0);
+        /* texto bom vizinho */
+        text-decoration: none;
+    }
+    h2>a{
+        text-decoration: none;
+    }
+}
+
+
+
+
+.header__login>a {
+color: rgb(0, 0, 0);
+/* nav bar */
+text-decoration: none;
+/* tirar decoração do texto, retirar o grifado do texto */
+padding: 10px 20px;
+border-radius: 25px;
+font-size: 1.275rem;
+    &:hover {
+        color: rgb(0, 0, 0);
+        background-color: rgb(128, 228, 161);
+    }
+}

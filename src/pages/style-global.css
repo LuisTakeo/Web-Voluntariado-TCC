@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  background-color: rgb(128, 228, 161);
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+}/*# sourceMappingURL=style-global.css.map */

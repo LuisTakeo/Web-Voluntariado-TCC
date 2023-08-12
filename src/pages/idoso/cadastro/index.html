@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../style-global.css">
+    <link rel="stylesheet" href="../../../css/cadastrar/cadastrar.css">
+</head>
+<body>
+
+    <div class="background">
+        <div class="container">
+          <header class="container__header">
+            <div class="header__title">
+                <h2><a href="/"> <img src="" alt=""> <span>Bom Vizinho</span> </a></h2>
+            </div>
+
+
+
+            <div class="header__login">
+                <a href="../login/">Voltar</a>
+            </div>
+
+            <!--<img class="casas" src="img/bv.png" alt="logo com duas casas">-->
+
+          </header>
+          <main class="main">
+            <section class="main__img">
+              <img src="../../../img/cumprimento.png" alt="Imagem rapaz em posição de cumprimento">
+            </section>
+            <section class="main__login">
+              <div class="container-login">
+                <h2 class="login-title">Cadastre-se:</h2>
+                <form [formGroup]="novoIdoso" (ngSubmit)="onSubmit()" class="login-idoso">
+
+                  <input type="text" formControlName="nome"  placeholder="Insira seu nome">
+
+                  <input type="text" formControlName="sobrenome"  placeholder="Insira seu sobrenome">
+
+                  <input type="email" formControlName="email" id="txEmail" placeholder="E-mail:">
+
+                  <input type="text" formControlName="nome" id="txTelefone" placeholder="Celular:">
+
+                  <input type="date" formControlName="dataNascimento" id="txDataNasc" placeholder="Data de Nascimento:">
+
+                  <input type="text" formControlName="endereco" id="txEndereco" placeholder="Endereço:">
+
+                  <input type="text" formControlName="cep" id="txCEP" placeholder="CEP:">
+                  <input type="password" formControlName="senha" id="txSenha" placeholder="Insira uma senha:">
+                  <input type="password" formControlName="senhaConfirm" id="txSenhaConfirm" placeholder="Confirme sua senha:">
+                  <button type="submit" >Cadastrar</button>
+                </form>
+                </div>
+            </section>
+
+          </main>
+        </div>
+    </div>
+
+
+</body>
+</html>

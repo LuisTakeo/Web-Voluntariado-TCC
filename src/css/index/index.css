@@ -1,0 +1,73 @@
+.container {
+  background-color: rgba(255, 255, 255, 0.829);
+  width: 95vw;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  /* border: 2px solid red; */
+  box-shadow: 16px 13px 0px -1px #5BA373;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+/***************** conteudo principal ****************/
+.casas {
+  height: 130px;
+  width: 160px;
+}
+
+.texto_eco {
+  color: rgb(0, 0, 0);
+  font-size: 1.65rem;
+  font-weight: bold;
+}
+
+.texto_pequeno {
+  font-size: 1.325rem;
+  width: 100%;
+  /* border: 2px solid red; */
+}
+
+/***************** BOTAO ****************/
+.botao {
+  /* position: relative; */
+  background-color: #074b09;
+  border: none;
+  border-radius: 9px;
+  font-size: 1.6rem;
+  color: #FFFFFF;
+  padding: 0.6rem;
+  width: 150px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.botao:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  /* position: absolute; */
+  /* padding-top: 300%;
+  padding-left: 350%; */
+  /* margin-left: -20px !important; */
+  /* margin-top: -120%; */
+  opacity: 0;
+  transition: all 0.8s;
+}
+
+.botao:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
+}/*# sourceMappingURL=index.css.map */
